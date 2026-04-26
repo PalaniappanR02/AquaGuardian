@@ -1,8 +1,0 @@
-# .streamlit/config.toml
-
-[server]
-port = 8501
-enableCORS = false
-enableXsrfProtection = false
-# Replace localhost:3000 with your specific frontend port if different
-enableFrameAncestors = ["http://localhost:3000"]
