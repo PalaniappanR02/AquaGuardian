@@ -103,7 +103,6 @@ export default function ComplaintsPage() {
 
   if (submitted) return (
     <div className="min-h-screen bg-slate-950 flex items-center justify-center p-4">
-      {/* @ts-ignore */}
       <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}
         className="text-center max-w-md glass rounded-3xl border border-slate-700/50 p-10">
         <div className="inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-emerald-500/10 mb-6">
